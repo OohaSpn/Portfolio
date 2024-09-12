@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lanfg="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ooha's portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/letter-o.svg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ooha-photo.jpg" alt="Oohasripriya Nandipati" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Oohasripriya Nandipati</h1>
+
+          <p class="title">Data Science & Analytics Graduate Student</p>
+        </div>
+
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:oohasripriya.nandipati-1@ou.edu" class="contact-link">oohasripriya.nandipati-1@ou.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (405) 274-1202</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 29, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Norman, Oklahoma, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>publications</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am currently pursuing a Master’s in Data Science & Analytics, with an expected graduation in
+             December 2024. I am actively seeking opportunities for internships or full-time positions in 
+             Data Science or Data Engineering. My coursework has provided me with a strong foundation in 
+             Machine Learning models, Hadoop, various database systems (Relational, Object-Relational, 
+             Object-Oriented, NoSQL), as well as data visualization tools like Tableau and analytical techniques.
+             I am eager to apply my skills to real-world challenges,Seeking an opportunity to contribute to a dynamic 
+            team and grow in the field of data analytics.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Technical Proficiencies</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-magnifying-glass.svg"
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Exploration & Analysis</h4>
+
+                <p class="service-item-text">
+                  Discovering insights through detailed data examination
+                  Employing statistical methods and analysis techniques to explore datasets, 
+                  identify trends, and derive actionable insights. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/bar-chart-675.svg" alt="Data Visualization" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+
+                <p class="service-item-text">
+                  Transforming complex data into actionable insights
+                  Utilizing advanced visualization tools like Tableau to 
+                  create clear, insightful visual narratives that support data-driven decisions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/machine-learning-1.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning & Data Mining</h4>
+
+                <p class="service-item-text">
+                  Uncovering patterns and making predictions
+                  Building predictive models and mining data to extract 
+                  meaningful patterns, enabling smarter, data-driven decisions across domains.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-management-9846.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Management</h4>
+
+                <p class="service-item-text">
+                  Designing and optimizing efficient data architectures
+                  Managing and maintaining various database systems, including Relational, Object-Relational, 
+                  Object-Oriented, and NoSQL, to ensure data integrity and accessibility.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="Skills & Technologies">
+
+          <h3 class="h3 testimonials-title">Skills & Technologies</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/3190343.jpg" alt="Programming Languages" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Programming Languages</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Python (Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch), SQL, PySpark, Java(JDBC, selenium-java), R,Cypher
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/database-152091_640.png" alt="Databases" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Databases</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    MySQL, PostgreSQL, MongoDB, SQlite , Neo4j
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Tools.jpg" alt="Tools" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Tools</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Tableau, Excel, AMPL, Eclipse, GIT, JIRA, Matlab, Azure Data Studio
+                  </p>
+                </div>
+
+              
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!----
+          - testimonials modal
+        ---->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Work Experiences</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Wipro_Primary Logo_White_RGB.png" alt="client logo" width="80">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/1807151.jpg" alt="client logo" width="80">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Oklahoma</h4>
+
+              <span>20023 — 20024</span>
+
+              <p class="timeline-text">
+                Masters in Data Science & Analytics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KL University</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelors in Computer Science & Engineering
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Wipro</h4>
+              <span>Project Engineer (2021 - 2022)</span>
+              <p class="timeline-text">
+                
+                • Developed and maintained automated test scripts using Selenium WebDriver, JUnit, and TestNG, utilizing BDD and TDD techniques within Agile methodologies, resulting in a 35% increase in test coverage.<br><br>
+                • Implemented data-driven testing with cucumber framework to validate application behavior with various datasets, significantly enhancing test efficiency and coverage by 40%.<br><br>
+                • Proficiently used Postman and RestAssured for API testing, creating collections, and executing various HTTP methods to ensure seamless communication between system components.<br><br>
+                • Utilized SQL for backend data validation and verification within the Olay Beauty Project website, improving accuracy and reliability of data handling processes.
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University Of Oklahoma</h4>
+
+              <span>Graduate Assistant (2023 — present)</span>
+
+              <p class="timeline-text">
+              • Assisted in course management for the Database Management Systems course, including developing relational databases from scratch.<br><br>
+              • Utilized SQL, JDBC, storage structures, procedures, and Azure in database development and management.<br><br>
+              • Assisted over 100 students with assignments through office hours and one-on-one consultations, ensuring comprehension of course material.<br><br>
+              • Designed and developed assignments tailored to reinforce learning objectives and enhance student understanding.<br><br>
+              
+              </p>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualization</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="80">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python (Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch)</h5>
+                <data value="70">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning & Data Mining</h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+      
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!-----
+        - #PORTFOLIO
+      --->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Database Management</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning & Data Mining</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analytics</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Database Management</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning & Data Mining</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analytics</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="database management">
+              <a href="https://github.com/OohaSpn/JobShop-DBMS-Application">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/jobShop.jpg" alt="JobShop Application" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">JobShop Application</h3>
+
+                <p class="project-category">Database Management</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="database management">
+              <a href="https://github.com/OohaSpn/ADBMS">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sqlite-183454_1280.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Extending a TimeStamp Algorithm in SQLite</h3>
+
+                <p class="project-category">Machine Learning & Data Mining</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/OohaSpn/Retail-Analytics">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Retail Analytics image.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Retail-Analytics
+                </h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://ieeexplore.ieee.org/document/9760851/authors#authors" target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/5767415.jpg" alt="An Object Detection by using Internet of Things" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> April, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">An Object Detection by using Internet of Things</h3>
+
+                  <p class="blog-text">
+                    Yellamma Pachipala; V Suma; N Gayathri; N Oohasripriya
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      
+       
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
